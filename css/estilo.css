@@ -1,0 +1,175 @@
+
+section aside div{
+	background-color:#C6C6FF;
+	margin:2% 1% 2% 1%;
+	padding:1%;
+	}
+section aside div img{
+	padding:1%;
+	}
+section aside div p{
+	padding:1%;
+	}
+section aside div button{
+	width:100%;
+	background-color:#6584FE;
+	border:none;
+	height:40px;
+	font-family: 'Oswald', sans-serif;
+	color:#006;
+	font-size:140%;
+	}
+#galeria ul li{
+	list-style:none;
+	display:inline;
+	}
+#galeria ul li img{
+	width:30%;
+	margin:7px 5px;
+	}	
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#003;
+	text-align:justify;
+	}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color:#009;
+	font-size:180%;
+	text-align:center;
+	}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	color:#009;
+	font-size:160%;
+	text-align:center;
+	}
+footer{
+	background-color:#006;
+    }
+footer p{
+	color:#FFF;
+	padding-top:10%;
+    }
+footer img{
+	padding-top:3px;
+	padding-left: auto;
+	}
+#social img{
+	padding-top:10%;
+	margin: 1% 1% 1%;
+	margin-left: 15px;
+    margin-right: auto;
+	}
+form-control {
+		width:80%;
+	}
+form {
+	margin-bottom:20px;
+	}
+.btn-default {
+    color:#FFF;
+    background-color:#000;
+    border:none;
+}
+	
+ /*--Large Desktop--*/
+ 
+@media (min-width:1200px){
+	
+	nav#botonera {
+		margin-top: 1.5%;
+		width: 40%;
+		}
+	nav#botonera ul{
+		width:100%;
+		}
+	nav#botonera ul li{
+		background-color:#006;
+		width:23%;
+		margin: 0 1%;
+		text-align:center;
+	}
+	#productos img{
+		margin:2% 1% 2%;
+		display: block;
+        margin-left: auto;
+        margin-right: auto;
+		}
+	.navbar-nav li a{
+		color:#CCF;
+	}
+
+/*--Medium Desktop--*/
+
+@media (max-width:1199px) and (min-width:992px){
+	nav#botonera {
+		margin-top: 5%;
+		width: 60%;
+	}
+	nav#botonera ul{
+		width:100%;
+	}
+	nav#botonera ul li{
+		background-color:#006;
+		width:23%;
+		margin: 0 1%;
+		text-align:center;
+	}
+	.navbar-nav li a{
+		color:#CCF;
+	}
+
+/*--Tablets--*/
+
+@media (max-width:991px) and (min-width:768px){
+	#logo {
+		padding:20px 240px
+		}
+	nav#botonera {
+		margin-top: 2% 0;
+		width: 100%;
+		}
+	nav#botonera ul{
+		width: 100%;
+		}
+	nav#botonera ul li{
+		background-color:#006;
+		width: 23%;
+		margin: 0 1%;
+		text-align:center;
+	    }
+	.navbar-nav li a{
+		color:#CCF;
+	   }
+	section aside div img{
+	padding-left:20%;
+	   }
+
+
+/*--Phones--*/
+
+@media (max-width:767px){
+	#logo {
+	background-color:#ffffff;
+	}
+	#logo img {
+	padding:20px 40px
+	}
+	#galeria ul{
+	margin-left:-50px;
+	}
+	#galeria ul li img{
+	width:100%;
+	margin: 10px auto;
+	}
+	footer img{
+		padding-left:60px;
+	}
+	footer p{
+		padding-left:120%;
+		}
+	#social img{
+		padding-left:15%;
+		padding-top:25%;
+		}
